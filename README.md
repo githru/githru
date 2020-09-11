@@ -1,7 +1,7 @@
 # Githru
 ### Visual Analytics for Understanding Software Development History Through Git Metadata Analysis
  
- <img src="http://hcil.snu.ac.kr/system/researches/representative_images/61/retina/b90b032be77c3a7e4b54a51f9fdeba29b28a6fe0.png"/>
+ <img src="http://hcil.snu.ac.kr/system/researches/representative_images/61/retina/89860877934ce486cdfe2caadd884eb77de5a289.png"/>
  
 Githru is an interactive visual analytics system that enables developers to effectively understand the context of development history through the interactive exploration of Git metadata. We design an interactive visual encoding idiom to represent a large Git graph in a scalable manner while preserving the topological structures in the Git graph. 
 
