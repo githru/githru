@@ -38,3 +38,15 @@ TBD
     primaryClass={cs.SE}
 }
 ```
+
+## Install and Run
+```
+git clone https://github.com/githru/githru.git
+cd frontend
+npm i
+npm start
+```
+
+visit 
+- http://localhost:3000/v2/realm-java/v
+- http://localhost:3000/v2/vue
