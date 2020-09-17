@@ -1,0 +1,10 @@
+#compareClusters text {
+    font-size: 14px;
+    /* font-weight: 400; */
+}
+
+#compareClusters .tick text {
+    font-size: 12px;
+    font-weight: 500;
+    fill: #999;
+}

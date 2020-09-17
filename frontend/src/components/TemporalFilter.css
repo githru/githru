@@ -1,0 +1,21 @@
+input[type="date"] {
+    appearance: none;
+    -webkit-appearance: none;
+    font-family: "Helvetica", arial, sans-serif;
+    font-size: 12px;
+    width:90px;
+    padding-left:0px;
+    padding-right:0px;
+    padding-top:7px;
+    padding-bottom:4px;
+    display: inline-block !important;
+    visibility: visible !important;
+}
+input[type="date"]::-webkit-clear-button {
+    display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+    display: none;
+}

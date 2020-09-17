@@ -1,0 +1,52 @@
+.element{
+    background: white;
+    display: block;
+    /* height: 60px; */
+    display: flex;
+    align-items: stretch;
+
+    margin-bottom: 13px;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+.left-strip{
+    width: 30px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 6px;
+}
+
+.content{
+    position: relative;
+    padding: 6px;
+    padding-left: 8px;
+    flex: 1;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.element-header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element-branch-name{ 
+    flex: 1;
+    font-weight: 700;
+    font-size: 0.75rem;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.element-remove-button{
+    cursor: "pointer";
+    font-size: 1.1rem !important;
+}

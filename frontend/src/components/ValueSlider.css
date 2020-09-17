@@ -1,0 +1,4 @@
+.flexVerticalContainer {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,14 @@
+.sidepanel-container-header {
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #575971;
+    /* opacity: 0.6; */
+    padding: 5px 10px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.sidepanel-container-content{
+    padding: 8px 8px 10px 8px;
+}

@@ -1,0 +1,86 @@
+body {
+  margin: "10px";
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.line {
+  fill: none;
+  stroke: #ffab00;
+  stroke-width: 1;
+}
+
+.overlay {
+  fill: none;
+  stroke-width: 0;
+}
+
+.brush .extent {
+  stroke: red;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}
+
+div.tooltip {	
+  position: absolute;			
+  text-align: left;			
+  /* width: 150px;					
+  height: 100px;					 */
+  padding: 3px;				
+  font: 12px sans-serif;		
+  background: #fafafa;	
+  border: 0px;		
+  border-radius: 4px;			
+  pointer-events: none;			
+}
+
+div.commitDetailTooltip {
+  position: absolute;			
+  text-align: left;			
+  /* width: 700px;					 */
+  /* height: 100%;					 */
+  padding: 2px;				
+  font: 13px sans-serif;		
+  background: lightsteelblue;	
+  border: 0px;		
+  border-radius: 8px;			
+  pointer-events: none;
+}
+
+div.rangeTooltip {	
+  position: relative;
+  float:left;			
+  text-align: left;			
+  padding: 1px;				
+  font: 10px sans-serif;		
+  background: #fafafa;	
+  border: 0px;		
+  border-radius: 1px;			
+  pointer-events: none;			
+}
+
+div.releaseLabelTooltip {	
+  position: absolute;
+  float:left;			
+  text-align: left;			
+  padding: 1px;				
+  font: 10px sans-serif;		
+  background: #fafafa;	
+  border: 0px;		
+  border-radius: 1px;			
+  pointer-events: none;			
+}
+
+button:focus {
+  outline: none !important;
+  outline-offset: none !important;
+}

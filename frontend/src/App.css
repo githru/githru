@@ -1,0 +1,163 @@
+body {
+  overflow: hidden;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#app-screen-root {
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.sidebar>div {
+  padding-bottom: 20px;
+}
+
+#main-sidebar {
+  width: 275px;
+  min-width: 275px;
+  border-right: 8px solid #ececec;
+}
+
+#center-pane {
+  /* flex: 1; */
+  border-right: 8px solid #ececec;
+}
+
+#title-panel {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  box-shadow: #00000050 0px 2px 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: #e0e0e0 1px solid;
+}
+
+#repository-name {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#legend-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#legend-container>.legend-element {
+  padding: 0px 12px;
+  margin-left: 6px;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+}
+
+#legend-container>.legend-element>.material-icons {
+  margin-left: -6px;
+  width: 1rem;
+  height: 1rem;
+  font-size: 1rem;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-right: 2px;
+  color: #575757;
+}
+
+#main-panel-content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  flex: 1;
+  padding-top: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.clusters rect {
+  fill: #00ffd0;
+  stroke: #999;
+  stroke-width: 1.5px;
+}
+
+text {
+  font-weight: 300;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serf;
+  font-size: 12px;
+}
+
+.node rect {
+  stroke: #999;
+  fill: #fff;
+  stroke-width: 1.5px;
+}
+
+.edgePath path {
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+rect {
+  stroke: #999;
+  fill: #fff;
+  stroke-width: 1px;
+}
+
+.flexContainer {
+  display: flex;
+}
+
+.flexVerticalContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+
+::-webkit-scrollbar {
+  /* display: none; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+div {
+  font-size: 12px;
+}

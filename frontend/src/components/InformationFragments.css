@@ -1,0 +1,32 @@
+.control-button {
+    font-size: 11px !important;
+    background: white !important;
+    padding: 0px 2px !important;
+}
+
+.fragment-list{
+    background: white;
+    margin-bottom: 12px;
+}
+
+.fragment-row{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid #adb5bd52;
+}
+
+.fragment-row > .fragment-cell-title{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 8px;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin-right: 9px;
+}
+
+.fragment-row > .fragment-cell-pin{
+    padding-right: 8px;
+    cursor: pointer;
+}
