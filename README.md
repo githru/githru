@@ -14,7 +14,7 @@ Visit our [Demo page](https://githru.github.io/demo/)!!
 Youngtaek Kim, Jaeyoung Kim, Hyeon Jeon, Young-Ho Kim, Hyunjoo Song, Bohyoung Kim, and Jinwook Seo, "Githru: Visual Analytics for Understanding Software Development History Through Git Metadata Analysis", IEEE VIS 2020 (VAST)
 
 - [arXiv](https://arxiv.org/abs/2009.03115)
-- [PDF](http://hcil.snu.ac.kr/system/publications/pdfs/000/000/146/original/Githru__git_graph_visualization_for_understanding_code_history_IEEE_CPS.pdf?1599199367)
+- [IEEE](https://ieeexplore.ieee.org/abstract/document/9222261)
 
 
 ## Apply to your repo!!
