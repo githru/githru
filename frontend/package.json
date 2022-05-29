@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.9.0",
     "@material-ui/icons": "^4.9.1",
+    "@material-ui/styles": "^4.11.5",
     "bootstrap": "^4.4.1",
     "d3": "^5.9.2",
     "dagre": "^0.8.4",
